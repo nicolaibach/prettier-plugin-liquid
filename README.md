@@ -2,17 +2,33 @@
 
 [Prettier](https://prettier.io) plugin to make Prettier parse [Liquid](https://github.com/Shopify/liquid) files as HTML.
 
-This plugin doesn't provide any special formatting for the Liquid markup language!
+**This plugin doesn't provide any special formatting for the Liquid markup language!**
 
 ## Why this plugin?
 
-I want Prettier to format Liquid templates `onSave` in VSCode. I tried changing [VSCodes's language identifier](https://code.visualstudio.com/docs/languages/identifiers) for `.liquid` files, but then I loose syntax highlighting and auto-completion provided by other plugins:
+I want Prettier to format Liquid templates `onSave` in VSCode. I tried changing [VSCodes's language identifier](https://code.visualstudio.com/docs/languages/identifiers) for `.liquid` files:
 
 ```json
 "files.associations": {
   "*.liquid": "html"
 }
 ```
+
+This works in the way that Prettier will process those files, but highlighting and auto-completion for Liquid specific syntax breaks.
+
+Instead of telling VSCode to treat `.liquid` files as HTML, the plugin registers Prettier's default HTML parser for the `liquid` language.
+
+## Installation
+
+```sh
+npm install -D https://github.com/nicolaibach/prettier-plugin-liquid.git
+```
+
+## Usage
+
+> Plugins are automatically loaded if you have them installed in the same node_modules directory where prettier is located. Plugin package names must start with @prettier/plugin- or prettier-plugin- or @<scope>/prettier-plugin- to be registered.
+>
+> –– https://prettier.io/docs/en/plugins.html#using-plugins
 
 ## Resources
 
