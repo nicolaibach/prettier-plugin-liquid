@@ -26,7 +26,7 @@ npm install -D https://github.com/nicolaibach/prettier-plugin-liquid.git
 
 ## Usage
 
-> Plugins are automatically loaded if you have them installed in the same node_modules directory where prettier is located. Plugin package names must start with @prettier/plugin- or prettier-plugin- or @<scope>/prettier-plugin- to be registered.
+> Plugins are automatically loaded if you have them installed in the same node_modules directory where prettier is located.
 >
 > –– https://prettier.io/docs/en/plugins.html#using-plugins
 
