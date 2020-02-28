@@ -6,7 +6,7 @@ const languages = [
     // tmScope: 'text.html.liquid',
     // aceMode: liquid,
     linguistLanguageId: 204,
-    vscodeLanguageIds: ['liquid', 'Liquid', 'HTML Liquid']
+    vscodeLanguageIds: ['liquid']
   }
 ];
 
