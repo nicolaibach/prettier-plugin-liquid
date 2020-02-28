@@ -1,0 +1,20 @@
+{
+  "name": "prettier-plugin-liquid",
+  "version": "0.0.1",
+  "description": "Prettier plugin to make Prettier parse Liquid files as HTML.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolaibach/prettier-plugin-liquid.git"
+  },
+  "keywords": [],
+  "author": "Nicolai Bach <mail@nicolaibach.de> (http://nicolaibach.de)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicolaibach/prettier-plugin-liquid/issues"
+  },
+  "homepage": "https://github.com/nicolaibach/prettier-plugin-liquid#readme"
+}
